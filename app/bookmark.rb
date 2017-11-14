@@ -17,8 +17,4 @@ class Bookmark < Sinatra::Base
    redirect "/links"
  end
 
-
-
-
-
 end

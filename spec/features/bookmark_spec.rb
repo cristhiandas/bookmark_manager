@@ -1,4 +1,8 @@
 require 'capybara/rspec'
+require 'database_cleaner'
+
+DatabaseCleaner.strategy = :truncation
+DatabaseCleaner.clean
 
 describe 'Bookmark', :type => :feature do
   feature 'When starting a new page' do
