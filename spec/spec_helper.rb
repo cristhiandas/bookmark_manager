@@ -1,5 +1,6 @@
 ENV['RACK_ENV'] = 'TEST'
 
+require './app/models/link'
 require './app/bookmark'
 require 'capybara'
 require 'capybara/rspec'
