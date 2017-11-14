@@ -1,4 +1,4 @@
-ENV['RACK_ENV'] = 'TEST'
+ENV['RACK_ENV'] = "test"
 
 require './app/models/link'
 require './app/bookmark'
